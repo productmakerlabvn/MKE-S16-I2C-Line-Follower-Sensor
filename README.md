@@ -38,7 +38,16 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 
 ## Hướng dẫn sử dụng
 
+### Cấu hình và kiểm tra địa chỉ I2C
+- Nhấn 1 lần (click) trên button S1. Lúc này, từ LED1 đến LED5 sẽ nhấp nháy 3 lần, mỗi lần 1s (sáng 500ms, tối 500ms). Tùy thuộc vào số lượng sẽ tương ứng với từng địa chỉ:
+![](/image/i2c_address_table.png)
+![](/image/i2c_address_table2.png)
+![](/image/i2c_address_table3.png)
+### Canh chỉnh ngưỡng (calibrate)
+
+
 ### Hướng dẫn sử dụng với Arduino (Code C)
+
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
@@ -46,6 +55,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 - Mở chương trình mẫu "MKE_S16_I2C_Line_LCD_Serial" tại File / Examples / MAKERLABVN / Sensor / MKE_S16_I2C_Line_LCD_Serial hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
+
 ## Hỗ trợ và liên hệ
 
 - Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
