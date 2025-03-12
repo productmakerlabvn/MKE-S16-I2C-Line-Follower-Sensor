@@ -43,7 +43,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 ![](/image/i2c_address_table3.png)
 
 #### 0x2A  
-https://github.com/user-attachments/assets/01847a7b-f799-4907-8de2-4876777dd72d
+<p align="center"><img src="https://github.com/user-attachments/assets/01847a7b-f799-4907-8de2-4876777dd72d" alt="menu game" width="480"/></p>
 
 
 ### Canh chỉnh ngưỡng (calibrate)
