@@ -40,9 +40,12 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 
 ### Cấu hình và kiểm tra địa chỉ I2C
 - Nhấn 1 lần (click) trên button S1. Lúc này, từ LED1 đến LED5 sẽ nhấp nháy 3 lần, mỗi lần 1s (sáng 500ms, tối 500ms). Tùy thuộc vào số lượng sẽ tương ứng với từng địa chỉ:
-![](/image/i2c_address_table.png)
-![](/image/i2c_address_table2.png)
 ![](/image/i2c_address_table3.png)
+
+> 0x2A
+https://github.com/user-attachments/assets/01847a7b-f799-4907-8de2-4876777dd72d
+
+
 ### Canh chỉnh ngưỡng (calibrate)
 
 
