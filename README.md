@@ -42,7 +42,9 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 - Nhấn 1 lần (click) trên button S1. Lúc này, từ LED1 đến LED5 sẽ nhấp nháy 3 lần, mỗi lần 1s (sáng 500ms, tối 500ms). Tùy thuộc vào số lượng sẽ tương ứng với từng địa chỉ:
 ![](/image/i2c_address_table3.png)  
 
-<p align="center"><img src="https://github.com/user-attachments/assets/01847a7b-f799-4907-8de2-4876777dd72d" alt="menu game" width="480"/></p>
+<div align="center">
+    <video src="https://github.com/epcbtech/archery-game/assets/54855481/d493703c-bf5b-4fd2-ae04-b86784a01231" alt="epcb archery game" height=200/>
+</div>
 
 
 ### Canh chỉnh ngưỡng (calibrate)
