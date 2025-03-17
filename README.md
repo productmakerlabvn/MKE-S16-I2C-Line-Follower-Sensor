@@ -45,6 +45,18 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 <div align="center">
     <video src="https://github.com/user-attachments/assets/503f67e5-bcca-4757-b40e-602896822ca2" alt="epcb archery game" height=200/>
 </div>
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/d76a3913-eee5-4d72-bf05-90476b31d5f6" alt="epcb archery game" height=200/>
+</div>
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/aedaceb6-1f65-4b47-9fe6-f23fb784876a" alt="epcb archery game" height=200/>
+</div>
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/44368f72-b69c-4e4e-850e-8efde34bb425" alt="epcb archery game" height=200/>
+</div>
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/10ad4042-c6da-49c0-a26f-9fcb32b2ee81" alt="epcb archery game" height=200/>
+</div>
 
 
 
