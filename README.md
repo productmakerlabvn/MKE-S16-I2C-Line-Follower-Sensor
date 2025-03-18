@@ -63,6 +63,12 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 
 > Sau khi chọn địa chỉ, nhấn giữ button S1 (long-click) để lưu lại địa chỉ I2C đã chọn. Lúc này 5 LED sẽ nhấp nháy liên tục 3 lần, mỗi lần 200ms rồi tắt.
 
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/5231e366-127b-4e34-bafb-812b8dfff47d" alt="epcb archery game" height=200/>
+</div>
+
+
+
 ### Canh chỉnh ngưỡng (calibrate)
 >
 > - Khoảng cách lý tưởng của cảm biến với mặt đất là từ 0.5cm - 1cm
