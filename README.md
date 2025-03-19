@@ -13,7 +13,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 - Model: MKE-S16 I2C Line Follower Sensor
 - Điện áp hoạt động: 5VDC
 - Dòng điện tiêu thụ khi hoạt động: khoảng 200mA
-- Chuẩn giao tiếp: I2C
+- Chuẩn giao tiếp: I2C / Digital Output
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
