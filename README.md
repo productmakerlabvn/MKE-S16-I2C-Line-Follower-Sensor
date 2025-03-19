@@ -6,7 +6,7 @@
 
 Cảm biến dò đường MKE-S16 I2C Line Follower Sensor sử dụng 5 cảm biến CNY70 bao gồm 1 mắt phát và 1 mắt thu hồng ngoại, cảm biến dựa vào độ phản xạ của tia hồng ngoại theo màu sắc của vật thể ở gần để xác định 2 màu có độ tương phản cao (thường là trắng và đen), ứng dụng trong các mô hình xe dò đường (dò line), cảm biến trả ra giá trị thông qua việc gửi tín hiệu giao tiếp theo chuẩn I2C, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
 
-Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Vietduino UNO, MEGA 2560, WiFi BLE với mạch MakerEdu Shield for Vietduino và micro:bit sử dụng với mạch MakerEDU Shield for Micro:bit, with 2 x DC Motor Driver.
 
 ## Thông số kỹ thuật
 
@@ -15,7 +15,6 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 - Dòng điện tiêu thụ khi hoạt động: khoảng 200mA
 - Chuẩn giao tiếp: I2C / Digital Output
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
-- Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: connector XH2.54 4Pins
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
