@@ -86,7 +86,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 - Digital Out
 ![](/image/vuno_mkeS16_DO.jpg)
 
-### Sử dụng cảm biên ở chế độ I2C
+### Sử dụng cảm biến ở chế độ I2C
 
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
