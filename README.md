@@ -71,7 +71,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 > - Khoảng cách lý tưởng của cảm biến với mặt đất là từ 0.5cm - 1cm
 > - Khi canh chỉnh thì phải để cảm biến tiếp xúc với màu **tối hơn**
 
-Đặt cảm biến vào vùng nhận diện, nhấn giữ (long-click) button S1 để cảm biến tính toán độ nhạy (ngưỡng nhận). Các LED từ 1 đến 5 sẽ chớp 10 lần, mỗi lần 200ms.
+Đặt cảm biến vào vùng có màu tối hơn, nhấn giữ (long-click) button S1 để cảm biến tính toán độ nhạy (ngưỡng nhận). Các LED từ 1 đến 5 sẽ chớp 10 lần, mỗi lần 200ms.
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
 
