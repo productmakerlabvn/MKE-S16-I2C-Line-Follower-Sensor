@@ -40,7 +40,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 ### Cấu hình và kiểm tra địa chỉ I2C
 
 > - Nhấn 1 lần (click) trên button S1. Lúc này, từ LED1 đến LED5 sẽ nhấp nháy 3 lần, mỗi lần 1s (sáng 500ms, tối 500ms). Tùy thuộc vào số lượng sẽ tương ứng với từng địa chỉ.
-> - Nhấn 2 lần (double-click) trên button S1 sẽ vào chế độ chọn địa chỉ I2C. Lúc này LED1 đến LED5 sẽ nhấp nháy. Địa chỉ I2C phụ thuộc vào số LED đang nhấp nháy. Có thể nhấn 1 lần (click) để chuyển đổi giữa các địa chỉ từ 0x2A đến 0x2F.
+> - Nhấn 2 lần (double-click) trên button S1 sẽ vào chế độ chọn địa chỉ I2C. Lúc này LED1 đến LED5 sẽ nhấp nháy. Địa chỉ I2C phụ thuộc vào số LED đang nhấp nháy. Có thể nhấn 2 lần (double-click) để chuyển đổi giữa các địa chỉ từ 0x2A đến 0x2F.
 
 ![](/image/i2c_address_table3.png)  
 
@@ -60,7 +60,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
     <video src="https://github.com/user-attachments/assets/10ad4042-c6da-49c0-a26f-9fcb32b2ee81" alt="epcb archery game" height=200/>
 </div>
 
-> Sau khi chọn địa chỉ, nhấn giữ button S1 (long-click) để lưu lại địa chỉ I2C đã chọn. Lúc này 5 LED sẽ nhấp nháy liên tục 3 lần, mỗi lần 200ms rồi tắt.
+> Sau khi chọn địa chỉ, nhấn giữ button S1 (long-click) để lưu lại địa chỉ I2C đã chọn. Lúc này 5 LED sẽ nhấp nháy liên tục 5 lần, mỗi lần 200ms rồi tắt.
 
 <div align="center">
     <video src="https://github.com/user-attachments/assets/5231e366-127b-4e34-bafb-812b8dfff47d" alt="epcb archery game" height=200/>
