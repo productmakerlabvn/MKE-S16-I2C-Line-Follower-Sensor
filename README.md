@@ -4,7 +4,7 @@
 
 ## Giới thiệu
 
-Cảm biến dò đường MKE-S16 I2C Line Follower Sensor sử dụng 5 cảm biến CNY70 bao gồm 1 mắt phát và 1 mắt thu hồng ngoại, cảm biến dựa vào độ phản xạ của tia hồng ngoại theo màu sắc của vật thể ở gần để xác định 2 màu có độ tương phản cao (thường là trắng và đen), ứng dụng trong các mô hình xe dò đường (dò line), cảm biến trả ra giá trị thông qua việc gửi tín hiệu giao tiếp theo chuẩn I2C, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
+Cảm biến dò đường MKE-S16 I2C Line Follower Sensor sử dụng 5 cảm biến CNY70 bao gồm 1 mắt phát và 1 mắt thu hồng ngoại, cảm biến dựa vào độ phản xạ của tia hồng ngoại theo màu sắc của vật thể ở gần để xác định 2 màu có độ tương phản cao (thường là trắng và đen), ứng dụng trong các mô hình xe dò đường (dò line), cảm biến trả ra giá trị thông qua việc gửi tín hiệu giao tiếp theo chuẩn I2C, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu và có thể điều chỉnh độ nhạy (calibrate), kiểm tra và thiết lập địa chỉ I2C bằng nút nhấn.
 
 Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Vietduino UNO, Vietduino MEGA 2560, Vietduino WiFi BLE ESP32 với mạch MakerEdu Shield for Vietduino và micro:bit V2 sử dụng với mạch MakerEDU Shield for Micro:bit, with 2 x DC Motor Driver.
 
@@ -40,7 +40,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 ### Cấu hình và kiểm tra địa chỉ I2C
 
 > - Nhấn 1 lần (click) trên button S1. Lúc này, từ LED1 đến LED5 sẽ nhấp nháy 3 lần, mỗi lần 1s (sáng 500ms, tối 500ms). Tùy thuộc vào số lượng sẽ tương ứng với từng địa chỉ.
-> - Nhấn 2 lần (double-click) trên button S1 sẽ vào chế độ chọn địa chỉ I2C. Lúc này LED1 đến LED5 sẽ nhấp nháy. Địa chỉ I2C phụ thuộc vào số LED đang nhấp nháy. Có thể nhấn 1 lần (click) để chuyển đổi giữa các địa chỉ từ 0x2A đến 0x2F.
+> - Nhấn 2 lần (double-click) trên button S1 sẽ vào chế độ chọn địa chỉ I2C. Lúc này LED1 đến LED5 sẽ nhấp nháy. Địa chỉ I2C phụ thuộc vào số LED đang nhấp nháy. Có thể nhấn 2 lần (double-click) để chuyển đổi giữa các địa chỉ từ 0x2A đến 0x2F.
 
 ![](/image/i2c_address_table3.png)  
 
@@ -60,7 +60,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
     <video src="https://github.com/user-attachments/assets/10ad4042-c6da-49c0-a26f-9fcb32b2ee81" alt="epcb archery game" height=200/>
 </div>
 
-> Sau khi chọn địa chỉ, nhấn giữ button S1 (long-click) để lưu lại địa chỉ I2C đã chọn. Lúc này 5 LED sẽ nhấp nháy liên tục 3 lần, mỗi lần 200ms rồi tắt.
+> Sau khi chọn địa chỉ, nhấn giữ button S1 (long-click) để lưu lại địa chỉ I2C đã chọn. Lúc này 5 LED sẽ nhấp nháy liên tục 5 lần, mỗi lần 200ms rồi tắt.
 
 <div align="center">
     <video src="https://github.com/user-attachments/assets/5231e366-127b-4e34-bafb-812b8dfff47d" alt="epcb archery game" height=200/>
@@ -71,7 +71,7 @@ Cảm biến dò đường MKE-S16 I2C Line Follower Sensor thuộc hệ sinh th
 > - Khoảng cách lý tưởng của cảm biến với mặt đất là từ 0.5cm - 1cm
 > - Khi canh chỉnh thì phải để cảm biến tiếp xúc với màu **tối hơn**
 
-Đặt cảm biến vào vùng nhận diện, nhấn giữ (long-click) button S1 để cảm biến tính toán độ nhạy (ngưỡng nhận). Các LED từ 1 đến 5 sẽ chớp 10 lần, mỗi lần 200ms.
+Đặt cảm biến vào vùng có màu tối hơn, nhấn giữ (long-click) button S1 để cảm biến tính toán độ nhạy (ngưỡng nhận). Các LED từ 1 đến 5 sẽ chớp 10 lần, mỗi lần 200ms.
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
 
